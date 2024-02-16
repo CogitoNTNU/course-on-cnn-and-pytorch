@@ -1,5 +1,5 @@
 # Course on CNN and Pytorch
-Welcome to the "Course on CNN and PyTorch," a structured educational resource designed to deepen your understanding and practical skills with Convolutional Neural Networks (CNNs) using PyTorch.
+Welcome to the "Course on CNN and PyTorch" a structured educational resource designed to deepen your understanding and practical skills with Convolutional Neural Networks (CNNs) using PyTorch.
 
 ## Course Overview
 This course is structured to provide a step-by-step introduction to the core concepts of deep learning, focusing on CNNs and their implementation in PyTorch. Through this course, you will gain hands-on experience working with datasets, implementing CNN architectures, and training deep learning models efficiently.
@@ -45,12 +45,12 @@ Connect to the hosted runtime and run the cells in the notebook to execute the c
 
 ![connect to hosted runtime](docs/images/connect-to-hosted-runtime.png)
 
-
 </div>
 </details>
 
 The course is designed so you can follow along step-by-step. Each section builds on the previous one, but tasks are self-contained to minimize dependencies.
-Experiment: Feel free to modify the code and experiment. Playing with the parameters and code will help deepen your understanding.
+
+Feel free to modify the code and experiment. Playing with the parameters and code will help deepen your understanding.
 
 ## Contributors
 This course was created by one of our most skilled members **Ulrik Røsby** to share his knowledge and expertise with the rest of the members of **Cogito NTNU**. He has designed this course to provide a comprehensive learning experience for anyone interested in deep learning and CNNs using PyTorch.
