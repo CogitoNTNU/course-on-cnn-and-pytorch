@@ -11,18 +11,18 @@ This course is structured to provide a step-by-step introduction to the core con
 * **Training Loop:** Detailed walkthrough of the training process, including loss calculation and model optimization.
 * **Specific CNN Architectures:** Exploration of various CNN designs and their applications.
 
-## Course Features
-* **Hands-on Learning:** Engage with practical exercises and projects to apply what you learn.
-* **Comprehensive Material:** Access detailed lectures and notes covering all aspects of deep learning and CNNs.
 
 ## Prerequisites
 * **Python Programming:** Basic understanding of Python programming.
-* **Google Account:** Access to Google Colab for running the code on a T-4 GPU.
+* **Google Account:** Access to Google Colab for running the code on a T4 GPU.
 
 ## How to Use This Notebook
-To use this notebook, you can clone the repository and open the notebook in Google Colab. To be able to train the networks in a reasonable time, one must use a T-4 GPU. 
-One must change the hosted runtime to a T-4 GPU by clicking on the "connection" tab and then "Change runtime type" and then select "GPU" and "T-4" as shown in the images 
-below.
+To use this notebook, you open the notebook in Google Colab.
+To ensure your models train efficiently, you'll want to use a T4 GPU provided by Google Colab. Here's how to set it up:
+
+1. **Select Runtime Type:** After opening the notebook in Colab, navigate to the "Runtime" menu at the top of the page.
+2. **Change Runtime Type:** Click on "Change runtime type" in the drop-down menu.
+3. **Enable GPU:** In the dialog that appears, set "Hardware accelerator" to "GPU" and ensure that it's set to use a T4 GPU.
 
 <details>
 
@@ -45,11 +45,12 @@ Connect to the hosted runtime and run the cells in the notebook to execute the c
 
 ![connect to hosted runtime](docs/images/connect-to-hosted-runtime.png)
 
-The tasks is created such that tasks do not depend on each other, so you can start from any task you want. The tasks are designed to be self-contained, so you can run each task independently and so you do not get consequential errors.
 
 </div>
 </details>
 
+The course is designed so you can follow along step-by-step. Each section builds on the previous one, but tasks are self-contained to minimize dependencies.
+Experiment: Feel free to modify the code and experiment. Playing with the parameters and code will help deepen your understanding.
 
 ## Contributors
 This course was created by one of our most skilled members **Ulrik Røsby** to share his knowledge and expertise with the rest of the members of **Cogito NTNU**. He has designed this course to provide a comprehensive learning experience for anyone interested in deep learning and CNNs using PyTorch.
